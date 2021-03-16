@@ -13,11 +13,13 @@ public class Caso_15 {
 		System.out.print("Ingrese producto [TB, LT, MN, IM]: ");
 		String producto = sc.nextLine();
 		
-		System.out.print("Forma de pago [C1, C2]: ");
-		String forma_pago = sc.nextLine();
-		
 		System.out.print("Ingrese cantidad: ");
 		int cantidad = sc.nextInt();
+		
+		sc.nextLine();
+		
+		System.out.print("Forma de pago [C1, C2]: ");
+		String forma_pago = sc.nextLine();
 		
 		String nombre_producto = "Producto no valido";
 		String nombre_pago = "Forma de pago no valida";
