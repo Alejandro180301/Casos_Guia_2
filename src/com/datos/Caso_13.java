@@ -33,18 +33,16 @@ public class Caso_13 {
 			operacion = "Multiplicación";
 			break;
 		case 4:
-			if (n2 == 0) {
+			if (n2 == 0)
 				operacion = "No es posible dividir entre 0";
-			}
 			else {
 				rpta = n1 / n2;
 				operacion = "División";
 			}
 			break;
 		case 5:
-			if (n2 == 0) {
+			if (n2 == 0)
 				operacion = "No es posible hallar el resto entero";
-			}
 			else {
 				rpta = n1 % n2;
 				operacion = "Resto entero";
