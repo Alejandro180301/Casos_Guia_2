@@ -16,7 +16,7 @@ public class Caso_13 {
 		System.out.print("Ingrese operación [1-6]: ");
 		int op = sc.nextInt();
 		
-		String operacion = "";
+		String operacion = "Operación invalida";
 		float rpta = 0;
 		
 		switch (op) {
@@ -34,7 +34,6 @@ public class Caso_13 {
 			break;
 		case 4:
 			if (n2 == 0) {
-				rpta = 0;
 				operacion = "No es posible dividir entre 0";
 			}
 			else {
@@ -44,7 +43,6 @@ public class Caso_13 {
 			break;
 		case 5:
 			if (n2 == 0) {
-				rpta = 0;
 				operacion = "No es posible hallar el resto entero";
 			}
 			else {
@@ -56,9 +54,7 @@ public class Caso_13 {
 			rpta = (n1 + n2) / 2;
 			operacion = "Promedio";
 			break;
-		default:
-			rpta = 0;
-			operacion = "Operación invalida";
+
 		}
 		
 		System.out.println("\n--- R E S U L T A D O S ---");
