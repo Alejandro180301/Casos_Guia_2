@@ -25,8 +25,8 @@ public class Caso_15 {
 		String nombre_pago = "Forma de pago no valida";
 		float precio = 0;
 		float dscto = 0;
-		String mensaje = "";
-		String total = "";
+		String mensaje = "Descuento: " + 0;
+		String total = "Total a pagar: " + 0;
 		
 		switch (producto) {
 		case "TB":
