@@ -23,7 +23,7 @@ public class Caso_8 {
 		else if (nota > 20)
 			mensaje = "La nota maxima es 20";
 		
-		System.out.println("--- R E S U L T A D O ---");
+		System.out.println("\n--- R E S U L T A D O ---");
 		System.out.println("Estado obtenido: " + mensaje);
 	}
 }
